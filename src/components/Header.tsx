@@ -9,11 +9,11 @@ export default function Header() {
             src="/logo/logo.png"
             alt="Logo da empresa"
             width={50}
-            height={50}
-            className="h-8 w-auto object-contain"
+            height={70}
+            className="h-12 w-auto object-contain"
           />
           <h1 className="text-lg font-bold text-yellow-600">
-            Pupo Parfum
+            Pupo Parfums
           </h1>
         </div>
 

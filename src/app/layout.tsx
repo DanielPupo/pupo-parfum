@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto, Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -15,7 +18,7 @@ const roboto = Roboto({
 // });
 
 export const metadata: Metadata = {
-  title: "Pupo Parfum",
+  title: "Pupo Parfums",
   description: "A melhor perfumaria do mundo!",
 };
 
@@ -27,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-br"    
-      className={`${roboto.variable} h-full antialiased`}>
+      className={cn("h-full", "antialiased", roboto.variable, "font-sans", geist.variable)}>
       <body className="min-h-full flex flex-col">
         <Header/>
         <main className="flex-1 bg-black">

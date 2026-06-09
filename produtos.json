@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "title": "Perfume para o Verão",
+        "description": "Perfeito para os dias quentes, leve como a brisa do mar",
+        "price": 350.00,
+        "imageSrc": "/produtos/Eqaab.png",
+        "destaque": false
+    },
+    {
+        "id": 2,
+        "title": "Perfume para o Inverno",
+        "description": "Aqueça seus sentidos com notas intensas e envolventes",
+        "price": 450.00,
+        "imageSrc": "/produtos/SauvageElixir.png",
+        "destaque": true
+    },
+    {
+        "id": 3,
+        "title": "Perfume para o Dia a Dia",
+        "description": "Versátil e leve, ideal para qualquer ocasião",
+        "price": 300.00,
+        "imageSrc": "/produtos/AcquaProfundo.png",
+        "destaque": false
+    },
+    {
+        "id": 4,
+        "title": "Perfume para Noite",
+        "description": "Sedutor e marcante, perfeito para momentos especiais",
+        "price": 400.00,
+        "imageSrc": "/produtos/LeMaleElixir.png",
+        "destaque": true
+    },
+    {
+        "id": 5,
+        "title": "Perfume para o Trabalho",
+        "description": "Sutil e elegante, ideal para o ambiente profissional",
+        "price": 320.00,
+        "imageSrc": "/produtos/BleuChanel.png",
+        "destaque": false
+    },
+    {
+        "id": 6,
+        "title": "Perfume para o Fim de Semana",
+        "description": "Descontraído e fresco, perfeito para momentos de lazer",
+        "price": 280.00,
+        "imageSrc": "/produtos/AzzaroWanted.png",
+        "destaque": false
+    },
+    {
+        "id": 7,
+        "title": "Perfume para o Encontro",
+        "description": "Romântico e envolvente, ideal para impressionar",
+        "price": 380.00,
+        "imageSrc": "/produtos/BaccaratRouge540.png",
+        "destaque": true
+    },
+    {
+        "id": 8,
+        "title": "Perfume para o Esporte",
+        "description": "Refrescante e energizante, perfeito para atividades físicas",
+        "price": 250.00,
+        "imageSrc": "/produtos/OudMaracujá.png",
+        "destaque": false
+    },
+    {
+        "id": 9,
+        "title": "Perfume para o Relaxamento",
+        "description": "Calmante e suave, ideal para momentos de descanso",
+        "price": 270.00,
+        "imageSrc": "/produtos/ErbaPura.png",
+        "destaque": false
+    },
+    {
+        "id": 10,
+        "title": "Perfume para o Festival",
+        "description": "Vibrante e festivo, perfeito para celebrar com estilo",
+        "price": 420.00,
+        "imageSrc": "/produtos/SospiroVibrato.png",
+        "destaque": true
+    },
+    {
+        "id": 11,
+        "title": "Perfume para a Primavera",
+        "description": "Explosão floral e fresca, celebrando o renascer das flores",
+        "price": 340.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 12,
+        "title": "Perfume para o Outono",
+        "description": "Notas amadeiradas e aconchegantes que combinam com o clima ameno",
+        "price": 390.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 13,
+        "title": "Perfume para Reuniões de Negócios",
+        "description": "Marcante, sofisticado e que transmite extrema confiança",
+        "price": 480.00,
+        "imageSrc": "/produtos/L'Homme.png",
+        "destaque": true
+    },
+    {
+        "id": 14,
+        "title": "Perfume Pós-Banho",
+        "description": "Sensação prolongada de frescor e limpeza para relaxar em casa",
+        "price": 190.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 15,
+        "title": "Perfume para Viagens",
+        "description": "Fragrância versátil e prática para se adaptar a qualquer clima",
+        "price": 310.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 16,
+        "title": "Perfume para Eventos Formais",
+        "description": "A quintessência da elegância para casamentos e grandes galas",
+        "price": 520.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 17,
+        "title": "Perfume para Cinema e Teatro",
+        "description": "Discreto e intimista, perfeito para ambientes fechados",
+        "price": 295.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 18,
+        "title": "Perfume para a Balada",
+        "description": "Projeção intensa e notas doces para se destacar na noite",
+        "price": 460.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 19,
+        "title": "Perfume para Dias Chuvosos",
+        "description": "Toque terroso e confortante que abraça os sentidos",
+        "price": 330.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 20,
+        "title": "Perfume para Almoço de Domingo",
+        "description": "Suave, alegre e ideal para compartilhar momentos em família",
+        "price": 285.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 21,
+        "title": "Perfume para Práticas de Yoga",
+        "description": "Fragrância zen com notas de incenso e lavanda para foco e paz",
+        "price": 240.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 22,
+        "title": "Perfume Clássico Vintage",
+        "description": "Um resgate sofisticado das fragrâncias mais icônicas de época",
+        "price": 490.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 23,
+        "title": "Perfume Cítrico Energizante",
+        "description": "Notas puras de limão siciliano e bergamota para despertar",
+        "price": 260.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 24,
+        "title": "Perfume Oriental Misterioso",
+        "description": "Especiarias exóticas que criam uma aura de mistério e sedução",
+        "price": 470.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 25,
+        "title": "Perfume Floral Delicado",
+        "description": "Como um buquê de rosas frescas colhidas pela manhã",
+        "price": 315.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 26,
+        "title": "Perfume Amadeirado Intenso",
+        "description": "Notas profundas de sândalo e cedro para homens e mulheres de presença",
+        "price": 430.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 27,
+        "title": "Perfume Gourmand Doce",
+        "description": "Com acordes de baunilha e chocolate, feito para quem ama doçura",
+        "price": 365.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 28,
+        "title": "Perfume Aquático Refrescante",
+        "description": "Inspirado na imensidão do oceano e no frescor da maresia",
+        "price": 310.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 29,
+        "title": "Perfume Ervas e Especiarias",
+        "description": "Uma combinação ousada de alecrim, hortelã e pimenta preta",
+        "price": 345.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 30,
+        "title": "Perfume Edição de Luxo",
+        "description": "Ingredientes raros e uma fixação extraordinária de 24 horas",
+        "price": 680.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 31,
+        "title": "Perfume Minimalista Urbano",
+        "description": "Fragrância moderna e clean para quem vive a dinâmica da cidade",
+        "price": 370.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 32,
+        "title": "Perfume de Noiva",
+        "description": "Eternize o dia mais especial com uma essência inesquecível",
+        "price": 550.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 33,
+        "title": "Perfume Couro e Tabaco",
+        "description": "Rústico, maduro e imponente, ideal para a noite",
+        "price": 440.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 34,
+        "title": "Perfume Luar de Verão",
+        "description": "A refrescância do dia combinada com o mistério das noites quentes",
+        "price": 360.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 35,
+        "title": "Perfume Pôr do Sol",
+        "description": "Notas quentes de âmbar que capturam a beleza do fim de tarde",
+        "price": 385.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 36,
+        "title": "Perfume Frutas Vermelhas",
+        "description": "Jovem, vibrante e adocicado com o toque azedinho das frutas",
+        "price": 275.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 37,
+        "title": "Perfume Chá Verde e Gengibre",
+        "description": "Uma infusão terapêutica de leveza para revigorar o espírito",
+        "price": 265.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 38,
+        "title": "Perfume Alta Sociedade",
+        "description": "Exclusividade e sofisticação traduzidas em notas de champanhe",
+        "price": 610.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 39,
+        "title": "Perfume Esporte Radical",
+        "description": "Máxima resistência ao suor com notas gélidas de menta",
+        "price": 245.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 40,
+        "title": "Perfume Noite de Gala",
+        "description": "A combinação perfeita de luxo, sedução e projeção marcante",
+        "price": 580.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 41,
+        "title": "Perfume Lavanda Francesa",
+        "description": "O clássico aroma reconfortante para trazer paz e tranquilidade",
+        "price": 220.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 42,
+        "title": "Perfume Alma Livre",
+        "description": "Notas de patchouli e liberdade para espíritos aventureiros",
+        "price": 325.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 43,
+        "title": "Perfume Jovem e Rebelde",
+        "description": "Uma mistura não convencional de couro, frutas e notas metálicas",
+        "price": 340.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 44,
+        "title": "Perfume Segredo de Estado",
+        "description": "Enigmático, hipnótico e impossível de passar despercebido",
+        "price": 495.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 45,
+        "title": "Perfume Brisa da Montanha",
+        "description": "Ar puro, notas verdes e o frescor das altitudes elevadas",
+        "price": 290.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 46,
+        "title": "Perfume Baunilha Imperial",
+        "description": "Uma versão madura e nobre da especiaria mais amada do mundo",
+        "price": 415.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 47,
+        "title": "Perfume Primeira Viagem",
+        "description": "A empolgação das novas descobertas em um aroma cítrico-floral",
+        "price": 280.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 48,
+        "title": "Perfume Café e Âmbar",
+        "description": "Intenso e estimulante, ideal para os amantes da alta perfumaria",
+        "price": 465.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    },
+    {
+        "id": 49,
+        "title": "Perfume Estrela Cadente",
+        "description": "Brilhante e efêmero, com notas cintilantes de aldeídos",
+        "price": 395.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": false
+    },
+    {
+        "id": 50,
+        "title": "Perfume Ouro Negro",
+        "description": "A personificação da ostentação com a rara nota de Oud",
+        "price": 720.00,
+        "imageSrc": "/produtos/Equaab.png",
+        "destaque": true
+    }
+]
