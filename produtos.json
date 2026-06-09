@@ -36,7 +36,7 @@
         "title": "Perfume para o Trabalho",
         "description": "Sutil e elegante, ideal para o ambiente profissional",
         "price": 320.00,
-        "imageSrc": "/produtos/BleuChanel.png",
+        "imageSrc": "/produtos/BleudChanel.png",
         "destaque": false
     },
     {
@@ -100,7 +100,7 @@
         "title": "Perfume para Reuniões de Negócios",
         "description": "Marcante, sofisticado e que transmite extrema confiança",
         "price": 480.00,
-        "imageSrc": "/produtos/BleudChanel.png",
+        "imageSrc": "/produtos/L'Homme.png",
         "destaque": true
     },
     {
