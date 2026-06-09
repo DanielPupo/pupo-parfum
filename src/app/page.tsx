@@ -1,21 +1,21 @@
 import Carrossel from "@/components/Carrossel"
 import CardProduto from "@/components/CardProduto"
-import products from "../../produtos.json" // Importação direta da nossa base JSON
+import products from "../../produtos.json"
 
 export default function Home() {
-  // 1. Filtragem: Retorna apenas os produtos cujo atributo destaque seja igual a true
   const produtosEmDestaque = products.filter(
     (produto) => produto.destaque === true
   )
 
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-black text-slate-50">
-      <div className="mx-auto flex max-w-7xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8">
-        <div className="overflow-hidden rounded-3xl border border-yellow-500/20 bg-slate-950/70 shadow-2xl shadow-black/40">
+      <div className="mx-auto flex max-w-7xl flex-col gap-12 px-4 py-8 sm:px-6 lg:px-8">
+        
+        <div className="overflow-hidden rounded-3xl border border-yellow-500/10 bg-slate-950/70 shadow-2xl shadow-black/40">
           <Carrossel />
         </div>
 
-        <div className="rounded-3xl border border-yellow-500/20 bg-slate-950/70 p-8 shadow-2xl shadow-black/40">
+        <div className="rounded-3xl border border-yellow-500/20 bg-slate-950/70 p-8 shadow-2xl shadow-black/40 text-center sm:text-left">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">
             Coleção exclusiva
           </p>
@@ -27,7 +27,8 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+        {/* Grid de Vendas Otimizado */}
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {produtosEmDestaque.map((produto) => (
             <CardProduto
               key={produto.id}

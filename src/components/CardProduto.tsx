@@ -1,72 +1,65 @@
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
 import Image from "next/image"
 
-// 1. Tipagem das propriedades do produto
-interface CardProdutoProps {
-  id: string | number;
-  title: string;
-  description: string;
-  price: number;
-  imageSrc: string;
-  destaque?: boolean;
+interface ProdutoProps {
+  id: number
+  title: string
+  description: string
+  price: number
+  imageSrc: string
+  destaque: boolean
 }
 
-export default function CardProduto({
-  title,
-  description,
-  price,
-  imageSrc,
-  id,
-  destaque
-}: CardProdutoProps) {
-
-  // 2. Formatação de moeda BRL nativa
-  const formattedPrice = new Intl.NumberFormat("pt-BR", {
-    style: "currency",
-    currency: "BRL",
-  }).format(price);
+export default function CardProduto({ id, title, description, price, imageSrc, destaque }: ProdutoProps) {
+  // Formatador de moeda para Real (BRL)
+  const formattedPrice = new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL'
+  }).format(price)
 
   return (
-    <Card className="relative mx-auto w-full max-w-sm overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/85 pt-0 shadow-2xl shadow-black/30">
-      {/* Selo de destaque absoluto sobreposto no canto superior direito do card */}
+    <div className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/40 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-yellow-500/40 hover:bg-slate-950/80 hover:shadow-2xl hover:shadow-yellow-500/5">
+      
+      {/* Badge de Destaque Elegante */}
       {destaque && (
-        <Badge variant="secondary" className="absolute right-3 top-3 z-30 border border-yellow-500/30 bg-yellow-500/15 text-yellow-300 shadow-sm">
+        <span className="absolute top-4 right-4 z-10 rounded-full bg-yellow-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-yellow-400 border border-yellow-500/20 backdrop-blur-md">
           Destaque
-        </Badge>
+        </span>
       )}
 
-      {/* Container de imagem do produto com Image do Next.js para otimização e SEO */}
-      <div className="relative mt-4 aspect-video w-full">
-        <Image
-          src={imageSrc}
+      {/* Container da Imagem com tamanho fixo e Zoom no Hover */}
+      <div className="relative aspect-square w-full overflow-hidden rounded-2xl bg-slate-900/50 flex items-center justify-center">
+        <div className="absolute inset-0 bg-radial from-transparent to-slate-950/50 z-10" />
+        {/* Usando uma tag img estilizada ou component Image do Next */}
+        <img 
+          src={imageSrc} 
           alt={title}
-          fill
-          className="object-contain p-2"
-          sizes="(max-width: 768px) 100vw, 384px"
+          className="h-4/5 w-4/5 object-contain transition-transform duration-500 group-hover:scale-110"
         />
       </div>
 
-      <CardHeader>
-        <CardTitle className="text-xl font-bold text-white">{title}</CardTitle>
-        <CardDescription className="text-sm text-slate-400">
+      {/* Bloco de Informações com alturas controladas */}
+      <div className="mt-6 flex flex-col flex-grow">
+        <h3 className="line-clamp-1 text-lg font-bold text-white transition-colors group-hover:text-yellow-400">
+          {title}
+        </h3>
+        
+        {/* line-clamp-2 garante exatamente 2 linhas de descrição, mantendo o alinhamento */}
+        <p className="mt-2 line-clamp-2 h-10 text-sm leading-relaxed text-slate-400">
           {description}
-        </CardDescription>
-      </CardHeader>
+        </p>
 
-      <CardFooter className="border-t border-slate-800 bg-slate-900/60">
-        {/* Exibição do botão com o preço formatado */}
-        <Button className="w-full bg-yellow-500 font-semibold text-slate-950 hover:bg-yellow-400">
-          {formattedPrice}
-        </Button>
-      </CardFooter>
-    </Card>
+        {/* Preço e Botão */}
+        <div className="mt-6 flex items-center justify-between pt-4 border-t border-slate-900">
+          <div className="flex flex-col">
+            <span className="text-xs uppercase tracking-wider text-slate-500">Apenas</span>
+            <span className="text-xl font-black text-white tracking-tight">{formattedPrice}</span>
+          </div>
+          
+          <button className="cursor-pointer rounded-xl bg-yellow-500 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-950 transition-all hover:bg-yellow-400 active:scale-95 shadow-lg shadow-yellow-500/10">
+            Comprar
+          </button>
+        </div>
+      </div>
+    </div>
   )
 }
