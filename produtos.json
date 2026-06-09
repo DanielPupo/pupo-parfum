@@ -84,7 +84,7 @@
         "title": "Perfume para a Primavera",
         "description": "Explosão floral e fresca, celebrando o renascer das flores",
         "price": 340.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Polo67.png",
         "destaque": false
     },
     {
@@ -92,7 +92,7 @@
         "title": "Perfume para o Outono",
         "description": "Notas amadeiradas e aconchegantes que combinam com o clima ameno",
         "price": 390.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/TheBlend.png",
         "destaque": false
     },
     {
@@ -100,7 +100,7 @@
         "title": "Perfume para Reuniões de Negócios",
         "description": "Marcante, sofisticado e que transmite extrema confiança",
         "price": 480.00,
-        "imageSrc": "/produtos/L'Homme.png",
+        "imageSrc": "/produtos/BleudChanel.png",
         "destaque": true
     },
     {
@@ -108,7 +108,7 @@
         "title": "Perfume Pós-Banho",
         "description": "Sensação prolongada de frescor e limpeza para relaxar em casa",
         "price": 190.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/GranadoImperial.png",
         "destaque": false
     },
     {
@@ -116,7 +116,7 @@
         "title": "Perfume para Viagens",
         "description": "Fragrância versátil e prática para se adaptar a qualquer clima",
         "price": 310.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/MalbecBleu.png",
         "destaque": false
     },
     {
@@ -124,7 +124,7 @@
         "title": "Perfume para Eventos Formais",
         "description": "A quintessência da elegância para casamentos e grandes galas",
         "price": 520.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Gentleman.png",
         "destaque": true
     },
     {
@@ -132,7 +132,7 @@
         "title": "Perfume para Cinema e Teatro",
         "description": "Discreto e intimista, perfeito para ambientes fechados",
         "price": 295.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/2ndSkin.png",
         "destaque": false
     },
     {
@@ -140,7 +140,7 @@
         "title": "Perfume para a Balada",
         "description": "Projeção intensa e notas doces para se destacar na noite",
         "price": 460.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/MySelf.png",
         "destaque": true
     },
     {
@@ -148,7 +148,7 @@
         "title": "Perfume para Dias Chuvosos",
         "description": "Toque terroso e confortante que abraça os sentidos",
         "price": 330.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/TheOne.png",
         "destaque": false
     },
     {
@@ -156,7 +156,7 @@
         "title": "Perfume para Almoço de Domingo",
         "description": "Suave, alegre e ideal para compartilhar momentos em família",
         "price": 285.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/DiorCologne.png",
         "destaque": false
     },
     {
@@ -164,7 +164,7 @@
         "title": "Perfume para Práticas de Yoga",
         "description": "Fragrância zen com notas de incenso e lavanda para foco e paz",
         "price": 240.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/AvatimMarina.png",
         "destaque": false
     },
     {
@@ -172,7 +172,7 @@
         "title": "Perfume Clássico Vintage",
         "description": "Um resgate sofisticado das fragrâncias mais icônicas de época",
         "price": 490.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Antiquities.png",
         "destaque": true
     },
     {
@@ -180,7 +180,7 @@
         "title": "Perfume Cítrico Energizante",
         "description": "Notas puras de limão siciliano e bergamota para despertar",
         "price": 260.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/VersaceEros.png",
         "destaque": false
     },
     {
@@ -188,7 +188,7 @@
         "title": "Perfume Oriental Misterioso",
         "description": "Especiarias exóticas que criam uma aura de mistério e sedução",
         "price": 470.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/OudMisteryIntense.png",
         "destaque": true
     },
     {
@@ -196,7 +196,7 @@
         "title": "Perfume Floral Delicado",
         "description": "Como um buquê de rosas frescas colhidas pela manhã",
         "price": 315.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/LaVieEstBelle.png",
         "destaque": false
     },
     {
