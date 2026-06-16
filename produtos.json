@@ -397,7 +397,7 @@
         "description": "A personificação da ostentação com a rara nota de Oud",
         "price": 720.00,
         "imageSrc": "/produtos/MalbecSignature.png",
-        "destaque": true
+        "destaque": false
     },
     {
         "id": 51,
@@ -405,6 +405,6 @@
         "description": "Ápice do minimalismo conceitual e da perfumaria artística",
         "price": 720.00,
         "imageSrc": "/produtos/EncreNoire.png",
-        "destaque": true
+        "destaque": false
     }
 ]
