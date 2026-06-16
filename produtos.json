@@ -204,7 +204,7 @@
         "title": "Perfume Amadeirado Intenso",
         "description": "Notas profundas de sândalo e cedro para homens e mulheres de presença",
         "price": 430.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/YIntenseYSLR.png",
         "destaque": true
     },
     {
@@ -212,7 +212,7 @@
         "title": "Perfume Gourmand Doce",
         "description": "Com acordes de baunilha e chocolate, feito para quem ama doçura",
         "price": 365.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Eclaire.png",
         "destaque": false
     },
     {
@@ -220,7 +220,7 @@
         "title": "Perfume Aquático Refrescante",
         "description": "Inspirado na imensidão do oceano e no frescor da maresia",
         "price": 310.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/L'eauDissey.png",
         "destaque": false
     },
     {
@@ -228,7 +228,7 @@
         "title": "Perfume Ervas e Especiarias",
         "description": "Uma combinação ousada de alecrim, hortelã e pimenta preta",
         "price": 345.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Asad.png",
         "destaque": false
     },
     {
@@ -236,7 +236,7 @@
         "title": "Perfume Edição de Luxo",
         "description": "Ingredientes raros e uma fixação extraordinária de 24 horas",
         "price": 680.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Sisley.png",
         "destaque": true
     },
     {
@@ -244,7 +244,7 @@
         "title": "Perfume Minimalista Urbano",
         "description": "Fragrância moderna e clean para quem vive a dinâmica da cidade",
         "price": 370.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/CalvinKlein.png",
         "destaque": false
     },
     {
@@ -252,7 +252,7 @@
         "title": "Perfume de Noiva",
         "description": "Eternize o dia mais especial com uma essência inesquecível",
         "price": 550.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/MissDior.png",
         "destaque": true
     },
     {
@@ -260,7 +260,7 @@
         "title": "Perfume Couro e Tabaco",
         "description": "Rústico, maduro e imponente, ideal para a noite",
         "price": 440.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/OmbréLeather.png",
         "destaque": false
     },
     {
@@ -268,7 +268,7 @@
         "title": "Perfume Luar de Verão",
         "description": "A refrescância do dia combinada com o mistério das noites quentes",
         "price": 360.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Allure.png",
         "destaque": false
     },
     {
@@ -276,7 +276,7 @@
         "title": "Perfume Pôr do Sol",
         "description": "Notas quentes de âmbar que capturam a beleza do fim de tarde",
         "price": 385.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/SoldeJaneiro.png",
         "destaque": true
     },
     {
@@ -284,7 +284,7 @@
         "title": "Perfume Frutas Vermelhas",
         "description": "Jovem, vibrante e adocicado com o toque azedinho das frutas",
         "price": 275.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/L'Interdit.png",
         "destaque": false
     },
     {
@@ -292,7 +292,7 @@
         "title": "Perfume Chá Verde e Gengibre",
         "description": "Uma infusão terapêutica de leveza para revigorar o espírito",
         "price": 265.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/TheYulong.png",
         "destaque": false
     },
     {
@@ -300,7 +300,7 @@
         "title": "Perfume Alta Sociedade",
         "description": "Exclusividade e sofisticação traduzidas em notas de champanhe",
         "price": 610.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/CreedGreen.png",
         "destaque": true
     },
     {
@@ -308,7 +308,7 @@
         "title": "Perfume Esporte Radical",
         "description": "Máxima resistência ao suor com notas gélidas de menta",
         "price": 245.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/DioSport.png",
         "destaque": false
     },
     {
@@ -316,7 +316,7 @@
         "title": "Perfume Noite de Gala",
         "description": "A combinação perfeita de luxo, sedução e projeção marcante",
         "price": 580.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Layton.png",
         "destaque": true
     },
     {
@@ -324,7 +324,7 @@
         "title": "Perfume Lavanda Francesa",
         "description": "O clássico aroma reconfortante para trazer paz e tranquilidade",
         "price": 220.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/YSLLibre.png",
         "destaque": false
     },
     {
@@ -332,7 +332,7 @@
         "title": "Perfume Alma Livre",
         "description": "Notas de patchouli e liberdade para espíritos aventureiros",
         "price": 325.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/GranadoBossa.png",
         "destaque": false
     },
     {
@@ -340,7 +340,7 @@
         "title": "Perfume Jovem e Rebelde",
         "description": "Uma mistura não convencional de couro, frutas e notas metálicas",
         "price": 340.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/BadBoy.png",
         "destaque": false
     },
     {
@@ -348,7 +348,7 @@
         "title": "Perfume Segredo de Estado",
         "description": "Enigmático, hipnótico e impossível de passar despercebido",
         "price": 495.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Noir.png",
         "destaque": true
     },
     {
@@ -356,7 +356,7 @@
         "title": "Perfume Brisa da Montanha",
         "description": "Ar puro, notas verdes e o frescor das altitudes elevadas",
         "price": 290.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/CreedSilver.png",
         "destaque": false
     },
     {
@@ -364,7 +364,7 @@
         "title": "Perfume Baunilha Imperial",
         "description": "Uma versão madura e nobre da especiaria mais amada do mundo",
         "price": 415.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/BlackOpium.png",
         "destaque": true
     },
     {
@@ -372,7 +372,7 @@
         "title": "Perfume Primeira Viagem",
         "description": "A empolgação das novas descobertas em um aroma cítrico-floral",
         "price": 280.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Carioca.png",
         "destaque": false
     },
     {
@@ -380,7 +380,7 @@
         "title": "Perfume Café e Âmbar",
         "description": "Intenso e estimulante, ideal para os amantes da alta perfumaria",
         "price": 465.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Club6.png",
         "destaque": true
     },
     {
@@ -388,7 +388,7 @@
         "title": "Perfume Estrela Cadente",
         "description": "Brilhante e efêmero, com notas cintilantes de aldeídos",
         "price": 395.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/Alien.png",
         "destaque": false
     },
     {
@@ -396,7 +396,15 @@
         "title": "Perfume Ouro Negro",
         "description": "A personificação da ostentação com a rara nota de Oud",
         "price": 720.00,
-        "imageSrc": "/produtos/Equaab.png",
+        "imageSrc": "/produtos/MalbecSignature.png",
+        "destaque": true
+    },
+    {
+        "id": 51,
+        "title": "Perfume Asfalto Molhadoo",
+        "description": "Ápice do minimalismo conceitual e da perfumaria artística",
+        "price": 720.00,
+        "imageSrc": "/produtos/EncreNoire.png",
         "destaque": true
     }
 ]
