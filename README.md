@@ -267,7 +267,7 @@ https://github.com/DanielPupo
 LinkedIn:
 
 ```text
-https://linkedin.com/in/seu-perfil
+https://www.linkedin.com/in/daniel-pupo-68a978356/
 ```
 
 ---
