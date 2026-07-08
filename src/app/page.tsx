@@ -1,4 +1,4 @@
-import Carrossel from "@/components/Carrossel"
+import Hero from "@/components/Hero";
 import CardProduto from "@/components/CardProduto"
 import products from "../../produtos.json"
 
@@ -12,7 +12,7 @@ export default function Home() {
       <div className="mx-auto flex max-w-7xl flex-col gap-12 px-4 py-8 sm:px-6 lg:px-8">
         
         <div className="overflow-hidden rounded-3xl border border-yellow-500/10 bg-slate-950/70 shadow-2xl shadow-black/40">
-          <Carrossel />
+          <Hero />
         </div>
 
         <div className="rounded-3xl border border-yellow-500/20 bg-slate-950/70 p-8 shadow-2xl shadow-black/40 text-center sm:text-left">

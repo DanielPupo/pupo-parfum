@@ -1,77 +1,153 @@
 "use client";
+
+import Image from "next/image";
+import { ShoppingCart, Star } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 
-import Image from "next/image"
-
 interface ProdutoProps {
-  id: number
-  title: string
-  description: string
-  price: number
-  imageSrc: string
-  destaque: boolean
+  id: number;
+  title: string;
+  description: string;
+  price: number;
+  imageSrc: string;
+  destaque: boolean;
 }
 
-export default function CardProduto({ id, title, description, price, imageSrc, destaque }: ProdutoProps) {
+export default function CardProduto({
+  id,
+  title,
+  description,
+  price,
+  imageSrc,
+  destaque,
+}: ProdutoProps) {
   const { addToCart } = useCart();
-  // Formatador de moeda para Real (BRL)
-  const formattedPrice = new Intl.NumberFormat('pt-BR', {
-    style: 'currency',
-    currency: 'BRL'
-  }).format(price)
+
+  const formattedPrice = new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  }).format(price);
 
   return (
-    <div className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/40 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-yellow-500/40 hover:bg-slate-950/80 hover:shadow-2xl hover:shadow-yellow-500/5">
+    <article className="group relative overflow-hidden rounded-3xl border border-white/10 bg-zinc-950 transition-all duration-500 hover:-translate-y-2 hover:border-yellow-500/40 hover:shadow-[0_20px_80px_rgba(234,179,8,.12)]">
 
-      {/* Badge de Destaque Elegante */}
+      {/* Glow */}
+
+      <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/0 via-yellow-500/0 to-yellow-500/10 opacity-0 transition duration-500 group-hover:opacity-100" />
+
+      {/* Badge */}
+
       {destaque && (
-        <span className="absolute top-4 right-4 z-10 rounded-full bg-yellow-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-yellow-400 border border-yellow-500/20 backdrop-blur-md">
-          Destaque
+        <span className="absolute right-5 top-5 z-20 rounded-full bg-yellow-500 px-3 py-1 text-xs font-bold text-black">
+          Mais Vendido
         </span>
       )}
 
-      {/* Container da Imagem com tamanho fixo e Zoom no Hover */}
-      <div className="relative aspect-square w-full overflow-hidden rounded-2xl bg-slate-900/50 flex items-center justify-center">
-        <div className="absolute inset-0 bg-radial from-transparent to-slate-950/50 z-10" />
-        {/* Usando uma tag img estilizada ou component Image do Next */}
-        <img
+      {/* Imagem */}
+
+      <div className="relative flex h-72 items-center justify-center overflow-hidden">
+
+        <Image
           src={imageSrc}
           alt={title}
-          className="h-4/5 w-4/5 object-contain transition-transform duration-500 group-hover:scale-110"
+          fill
+          className="object-contain p-8 transition duration-500 group-hover:scale-110"
         />
+
       </div>
 
-      {/* Bloco de Informações com alturas controladas */}
-      <div className="mt-6 flex flex-col flex-grow">
-        <h3 className="line-clamp-1 text-lg font-bold text-white transition-colors group-hover:text-yellow-400">
+      {/* Conteúdo */}
+
+      <div className="space-y-4 p-6">
+
+        {/* Avaliação */}
+
+        <div className="flex items-center gap-1">
+
+          {[...Array(5)].map((_, index) => (
+            <Star
+              key={index}
+              size={15}
+              className="fill-yellow-500 text-yellow-500"
+            />
+          ))}
+
+          <span className="ml-2 text-xs text-zinc-400">
+            (4.9)
+          </span>
+
+        </div>
+
+        {/* Nome */}
+
+        <h3 className="text-2xl font-bold text-white transition group-hover:text-yellow-500">
           {title}
         </h3>
 
-        {/* line-clamp-2 garante exatamente 2 linhas de descrição, mantendo o alinhamento */}
-        <p className="mt-2 line-clamp-2 h-10 text-sm leading-relaxed text-slate-400">
+        {/* Descrição */}
+
+        <p className="line-clamp-2 text-sm leading-7 text-zinc-400">
           {description}
         </p>
 
-        {/* Preço e Botão */}
-        <div className="mt-6 flex items-center justify-between pt-4 border-t border-slate-900">
-          <div className="flex flex-col">
-            <span className="text-xs uppercase tracking-wider text-slate-500">Apenas</span>
-            <span className="text-xl font-black text-white tracking-tight">{formattedPrice}</span>
-          </div>
+        {/* Características */}
 
-          <button className="cursor-pointer rounded-xl bg-yellow-500 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-950 transition-all hover:bg-yellow-400 active:scale-95 shadow-lg shadow-yellow-500/10">
-            Comprar
+        <div className="flex flex-wrap gap-2">
+
+          <span className="rounded-full bg-zinc-900 px-3 py-1 text-xs text-zinc-300">
+            Amadeirado
+          </span>
+
+          <span className="rounded-full bg-zinc-900 px-3 py-1 text-xs text-zinc-300">
+            Longa Fixação
+          </span>
+
+        </div>
+
+        {/* Preço */}
+
+        <div>
+
+          <span className="text-xs uppercase tracking-widest text-zinc-500">
+            A partir de
+          </span>
+
+          <h2 className="mt-1 text-3xl font-black text-yellow-500">
+            {formattedPrice}
+          </h2>
+
+        </div>
+
+        {/* Botões */}
+
+        <div className="flex gap-3">
+
+          <button
+            className="flex-1 rounded-2xl bg-yellow-500 py-4 font-bold text-black transition duration-300 hover:bg-yellow-400"
+          >
+            Comprar Agora
           </button>
 
           <button
-            onClick={() => addToCart({ id, title, price })}
-            className="bg-yellow-500 text-slate-950 p-2 rounded-xl"
+            onClick={() =>
+              addToCart({
+                id,
+                title,
+                price,
+              })
+            }
+            className="rounded-2xl border border-white/10 bg-zinc-900 px-5 transition duration-300 hover:border-yellow-500 hover:bg-zinc-800"
           >
-            Adicionar ao Carrinho
+            <ShoppingCart
+              size={20}
+              className="text-white"
+            />
           </button>
-    
+
         </div>
+
       </div>
-    </div>
-  )
+
+    </article>
+  );
 }
