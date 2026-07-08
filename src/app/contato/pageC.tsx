@@ -13,20 +13,25 @@ import {
 export default function Contato() {
   const [nome, setNome] = useState("")
   const [mensagem, setMensagem] = useState("")
+  const [enviando, setEnviando] = useState(false)
 
   const handleSubmeter = (e: React.FormEvent) => {
     e.preventDefault()
+    
     if (!nome || !mensagem) {
       alert("Por favor, preencha todos os campos do formulário.")
       return
     }
     
-    // Feedback interativo para o usuário
-    alert(`Obrigado pelo contato, ${nome}! Sua mensagem foi enviada com sucesso para nossa equipe de perfumistas.`)
-    
-    // Limpa o formulário
-    setNome("")
-    setMensagem("")
+    setEnviando(true)
+
+    // Simulação de tempo de resposta do servidor para dar realismo à venda
+    setTimeout(() => {
+      alert(`Obrigado pelo contato, ${nome}! Sua mensagem foi enviada com sucesso.`)
+      setNome("")
+      setMensagem("")
+      setEnviando(false)
+    }, 1500)
   }
 
   return (
@@ -102,8 +107,12 @@ export default function Contato() {
                 />
               </div>
 
-              <Button type="submit" className="w-full bg-yellow-500 py-6 text-sm font-bold uppercase tracking-wider text-slate-950 transition-all hover:bg-yellow-400 hover:shadow-lg hover:shadow-yellow-500/20">
-                Enviar mensagem
+              <Button 
+                type="submit" 
+                disabled={enviando}
+                className="w-full bg-yellow-500 py-6 text-sm font-bold uppercase tracking-wider text-slate-950 transition-all hover:bg-yellow-400 hover:shadow-lg hover:shadow-yellow-500/20 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {enviando ? "Enviando..." : "Enviar mensagem"}
               </Button>
             </form>
           </CardContent>
